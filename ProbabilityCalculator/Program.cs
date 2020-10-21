@@ -11,6 +11,8 @@ namespace ProbabilityCalculator
 {
     class Program
     {
+         
+
         static void Main(string[] args)
         {
             //Method to display the menu.
