@@ -112,19 +112,20 @@ namespace ProbabilityCalculator
                         objProbability.eventY = Convert.ToSingle(list[1]);
                         writeToFile.Append("\n Input variable == " + list[0]);
                         writeToFile.Append("\n Input variable == " + list[1]);
-                        ProbabilityWrapper A = new ProbabilityWrapper();
+                        ProbabilityWrapper Wrapper = new ProbabilityWrapper();
+                        Wrapper.SetComponent(objProbability);
                         for (int Index = 2; Index < list.Count; Index++)
                         {
-                            A.SetComponent(objProbability);
-                            objProbability.eventX = A.Multiply();
-                            objProbability.eventY = Convert.ToSingle(list[Index]);
-                            writeToFile.Append("\nInput variable == " + list[Index]);
-                            
+                            ProbabilityWrapper TempWrapper = new ProbabilityWrapper();
+                            Wrapper.eventY = Convert.ToSingle(list[Index]);
+                            TempWrapper.SetComponent(Wrapper);
+                            Wrapper = TempWrapper;
+                            writeToFile.Append("\n Input variable == " + list[Index]);
                         }
                         Console.Clear();
-                        Console.WriteLine("Probability of independent events {0},{1} is {2}", list[0], list[1], objProbability.Multiply());
+                        Console.WriteLine("Probability of independent events is  {0} ", Wrapper.Multiply());
                         Console.WriteLine("\n Press enter to continue....");
-                        writeToFile.Append("\nP(A)+P(B) ==" + objProbability.Multiply());
+                        writeToFile.Append("\nP(A)+P(B) ==" + Wrapper.Multiply());
                         WriteFile(Convert.ToString(writeToFile));
                     }
                     
@@ -154,15 +155,16 @@ namespace ProbabilityCalculator
                         Wrapper.SetComponent(objProbability);
                         for (int Index = 2; Index < list.Count; Index++)
                         {
-                            objProbability.eventX = Wrapper.Calculate();
-                            objProbability.eventY = Convert.ToSingle(list[Index]);
-                            Wrapper.SetComponent(objProbability);
+                            ProbabilityWrapper TempWrapper = new ProbabilityWrapper();
+                            Wrapper.eventY = Convert.ToSingle(list[Index]);
+                            TempWrapper.SetComponent(Wrapper);
+                            Wrapper = TempWrapper;
                             writeToFile.Append("\n Input variable == " + list[Index]);
                         }
                         Console.Clear();
                         Console.WriteLine("Probability of mutually exclusive is {0}", Wrapper.Calculate());
                         Console.WriteLine("\n Press enter to continue....");
-                        writeToFile.Append("\nP(A)+P(B)-P(A).P(B) ==" + objProbability.Calculate());
+                        writeToFile.Append("\nP(A)+P(B)-P(A).P(B) ==" + Wrapper.Calculate());
                         WriteFile(Convert.ToString(writeToFile));
                     }
                 }

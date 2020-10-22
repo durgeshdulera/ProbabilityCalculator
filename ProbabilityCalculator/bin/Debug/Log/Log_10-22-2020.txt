@@ -1,0 +1,162 @@
+Date Time : 22-10-2020 13:32:33
+
+ Input variable == 0.5
+ Input variable == 0.5
+ Input variable == 0.3
+P(A)+P(B)-P(A).P(B) ==0.825
+===============
+Date Time : 22-10-2020 16:49:03
+
+ Input variable == 0.5
+ Input variable == 0.5
+P(A)+P(B)-P(A).P(B) ==0.75
+
+
+===============
+Date Time : 22-10-2020 16:49:19
+
+ Input variable == 0.5
+ Input variable == 0.5
+P(A)+P(B) ==0.25
+
+
+===============
+Date Time : 22-10-2020 16:49:56
+
+ Input variable == 0.5
+ Input variable == 0.5
+P(A)+P(B) ==0
+
+
+===============
+Date Time : 22-10-2020 16:50:12
+
+ Input variable == 0.5
+ Input variable == 0.5
+P(A)+P(B) ==0
+
+
+===============
+Date Time : 22-10-2020 16:50:32
+
+ Input variable == 0.5
+ Input variable == 0.5
+P(A)+P(B) ==0
+
+
+===============
+Date Time : 22-10-2020 16:51:29
+
+ Input variable == 0.5
+ Input variable == 0.5
+P(A)+P(B) ==0
+
+
+===============
+Date Time : 22-10-2020 16:52:45
+
+ Input variable == 0.5
+ Input variable == 0.5
+P(A)+P(B)-P(A).P(B) ==0.75
+
+
+===============
+Date Time : 22-10-2020 16:52:58
+
+ Input variable == 0.5
+ Input variable == 0.5
+Input variable == 0.3
+P(A)+P(B) ==0.075
+
+
+===============
+Date Time : 22-10-2020 16:56:55
+
+ Input variable == 0.5
+ Input variable == 0.5
+ Input variable == 0.3
+P(A)+P(B) ==0
+
+
+===============
+Date Time : 22-10-2020 16:57:05
+
+ Input variable == 0.5
+ Input variable == 0.5
+ Input variable == 0.3
+P(A)+P(B) ==0
+
+
+===============
+Date Time : 22-10-2020 16:58:35
+
+ Input variable == 0.5
+ Input variable == 0.5
+P(A)+P(B) ==0.25
+
+
+===============
+Date Time : 22-10-2020 16:58:46
+
+ Input variable == 0.5
+ Input variable == 0.5
+ Input variable == 0.3
+P(A)+P(B) ==0
+
+
+===============
+Date Time : 22-10-2020 17:02:55
+
+ Input variable == 0.5
+ Input variable == 0.5
+ Input variable == 0.3
+P(A)+P(B) ==0.015625
+
+
+===============
+Date Time : 22-10-2020 17:10:27
+
+ Input variable == 0.5
+ Input variable == 0.5
+ Input variable == 0.3
+P(A)+P(B) ==0
+
+
+===============
+Date Time : 22-10-2020 17:10:36
+
+ Input variable == 0.5
+ Input variable == 0.5
+ Input variable == 0.3
+P(A)+P(B) ==0
+
+
+===============
+Date Time : 22-10-2020 17:12:43
+
+ Input variable == 0.5
+ Input variable == 0.5
+ Input variable == 0.3
+P(A)+P(B) ==0.0225
+
+
+===============
+Date Time : 22-10-2020 17:13:53
+
+ Input variable == 0.3
+ Input variable == 0.4
+ Input variable == 0.5
+ Input variable == 0.6
+P(A)+P(B) ==0.01296
+
+
+===============
+Date Time : 22-10-2020 18:08:50
+
+ Input variable == 0.5
+ Input variable == 0.5
+ Input variable == 0.3
+P(A)+P(B)-P(A).P(B) ==0.825
+
+
+===============

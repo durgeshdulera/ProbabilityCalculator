@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProbabilityCalculator.Library
 {
-    class ProbabilityWrapper : ProbabilityDecorator
+    public class ProbabilityWrapper : ProbabilityDecorator
     {
         public override float Calculate()
         {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProbabilityCalculator.Library
 {
-    class Probability : PropabilityBase
+   public class Probability : PropabilityBase
     {
         #region "Method"
         // Overriden method that calculates the probability of two events.

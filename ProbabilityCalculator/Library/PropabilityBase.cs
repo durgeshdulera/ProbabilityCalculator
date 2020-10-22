@@ -9,7 +9,7 @@ namespace ProbabilityCalculator.Library
     /// <summary>
     /// Base class for reusability and acts as an Interface within decorators.
     /// </summary>
-    abstract class PropabilityBase
+    public abstract class PropabilityBase
     {
         #region "Variables"
         //Holds input variables

@@ -9,7 +9,7 @@ namespace ProbabilityCalculator.Library
     /// <summary>
     /// This type acts as an decorator which set the probability object dynamically.
     /// </summary>
-    abstract class ProbabilityDecorator : PropabilityBase
+    public abstract class ProbabilityDecorator : PropabilityBase
     {
         // This variable hold reference to object passed dynamically.
         protected PropabilityBase ProBase;
@@ -31,6 +31,8 @@ namespace ProbabilityCalculator.Library
         {
             if (ProBase != null)
             {
+                ProBase.eventX =  ProBase.Calculate();
+                ProBase.eventY = this.eventY;
                 return ProBase.Calculate();
             }
             return 0;
@@ -39,7 +41,13 @@ namespace ProbabilityCalculator.Library
         {
             if (ProBase != null)
             {
-                return ProBase.Multiply();
+                ProBase.eventX = ProBase.Multiply();
+                if (this.eventY != 0)
+                {
+                    ProBase.eventY = this.eventY;
+                    return ProBase.Multiply();
+                }
+                return ProBase.eventX;
             }
             return 0;
         }

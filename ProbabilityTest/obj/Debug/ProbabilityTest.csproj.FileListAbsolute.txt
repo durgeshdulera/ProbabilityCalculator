@@ -1,0 +1,15 @@
+C:\Users\Krishiv\source\repos\ProbabilityCalculator\ProbabilityTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Krishiv\source\repos\ProbabilityCalculator\ProbabilityTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Krishiv\source\repos\ProbabilityCalculator\ProbabilityTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Krishiv\source\repos\ProbabilityCalculator\ProbabilityTest\bin\Debug\ProbabilityTest.dll
+C:\Users\Krishiv\source\repos\ProbabilityCalculator\ProbabilityTest\bin\Debug\ProbabilityTest.pdb
+C:\Users\Krishiv\source\repos\ProbabilityCalculator\ProbabilityTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Krishiv\source\repos\ProbabilityCalculator\ProbabilityTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Krishiv\source\repos\ProbabilityCalculator\ProbabilityTest\bin\Debug\ProbabilityCalculator.exe
+C:\Users\Krishiv\source\repos\ProbabilityCalculator\ProbabilityTest\bin\Debug\ProbabilityCalculator.pdb
+C:\Users\Krishiv\source\repos\ProbabilityCalculator\ProbabilityTest\bin\Debug\ProbabilityCalculator.exe.config
+C:\Users\Krishiv\source\repos\ProbabilityCalculator\ProbabilityTest\obj\Debug\ProbabilityTest.csprojAssemblyReference.cache
+C:\Users\Krishiv\source\repos\ProbabilityCalculator\ProbabilityTest\obj\Debug\ProbabilityTest.csproj.CoreCompileInputs.cache
+C:\Users\Krishiv\source\repos\ProbabilityCalculator\ProbabilityTest\obj\Debug\ProbabilityTest.csproj.CopyComplete
+C:\Users\Krishiv\source\repos\ProbabilityCalculator\ProbabilityTest\obj\Debug\ProbabilityTest.dll
+C:\Users\Krishiv\source\repos\ProbabilityCalculator\ProbabilityTest\obj\Debug\ProbabilityTest.pdb
